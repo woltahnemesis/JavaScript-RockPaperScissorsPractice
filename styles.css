@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+html {
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    min-height: 100%;
+}
+
+html, body {
+    margin: 0;
+}
+
+.game-div{
+    background-image: linear-gradient(to bottom right, #00467F, #A5CC82);
+    width: 40%;
+    height: 30em;
+    margin: 7em auto 0 auto;
+}
+
+form {
+/*    background: darkgray;*/
+    width: 20em;
+    display: flex;
+    justify-content: space-between;
+    margin: 2em auto 0 auto;
+    height: 2em;
+}
+
+form input {
+    background-color: transparent;
+    color: #00467F;
+    border: solid thin #00467F;
+    width: 5em;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+form input:hover {
+    background-color: #00467F;
+    color: white;
+}
+
+.game-div div {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.game-div .computer-div {
+    padding: 2em 0 0 0;
+/*    background-color: burlywood;*/
+    box-sizing: border-box;
+}
+
+.game-div div h2 {
+    margin: 0;
+    color: white;
+}
+
+.game-div div .img-div {
+    height: 60%;
+    max-height: 60%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.game-div div .img-div img {
+    width: 20%;
+    display: none;
+}
+
+.game-div .computer-div .img-div {
+    margin: 3.5em 0 0 0;
+}
+
+.game-div .computer-div .img-div img {
+    transform: rotate(180deg);
+}
+
+.game-div .player-div .img-div {
+    margin: 8px 0 0 0;
+}
+
+.game-div .player-div h2 {
+    margin: 1em 0 0 0;
+}
